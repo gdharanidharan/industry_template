@@ -22,7 +22,7 @@ setup(
     url = f"https://github.com/{AUTHOR}/{REPO_NAME}",
     author_email = AUTHOR_EMAIL,
     packages=SRC_REPO,
-    python_requires='>=3.6'
+    python_requires='>=3.6',
     install_requires = LIST_OF_REQUIREMENTS
 )
 
